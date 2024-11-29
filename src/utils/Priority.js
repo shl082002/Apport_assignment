@@ -14,7 +14,7 @@ import { PiUserSquareFill } from "react-icons/pi";
 const PriorityLabels = ({ keyValue }) => {
   return (
     <>
-      {keyValue === 4 ? (
+      {keyValue == 4 ? (
         <>
           <FcHighPriority
             style={{
@@ -22,7 +22,7 @@ const PriorityLabels = ({ keyValue }) => {
             }}
           />
         </>
-      ) : keyValue === 3 ? (
+      ) : keyValue == 3 ? (
         <>
           <LuSignal
             style={{
@@ -31,7 +31,7 @@ const PriorityLabels = ({ keyValue }) => {
             }}
           />
         </>
-      ) : keyValue === 2 ? (
+      ) : keyValue == 2 ? (
         <>
           <LuSignalHigh
             style={{
@@ -40,7 +40,7 @@ const PriorityLabels = ({ keyValue }) => {
             }}
           />
         </>
-      ) : keyValue === 1 ? (
+      ) : keyValue == 1 ? (
         <>
           <LuSignalLow
             style={{
@@ -48,7 +48,7 @@ const PriorityLabels = ({ keyValue }) => {
             }}
           />
         </>
-      ) : keyValue === 0 ? (
+      ) : keyValue == 0 ? (
         <>
           <HiDotsHorizontal
             style={{
