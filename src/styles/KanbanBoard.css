@@ -1,0 +1,40 @@
+/* .kanban-column {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ticket-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.display-options {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+} */
+.kanban_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* min-width: 2000px; */
+  padding: 1rem;
+  /* margin-top: 100px; */
+}
+
+@media (max-width: 768px) {
+  .kanban_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .kanban_container {
+    grid-template-columns: 1fr;
+  }
+}
