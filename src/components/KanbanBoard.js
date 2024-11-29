@@ -163,7 +163,7 @@ const KanbanBoard = ({ ticketsRef, userRef, groupBy, orderBy }) => {
                   </>
                 ) : groupBy === "priority" ? (
                   <>
-                    {key == 4 ? (
+                    {key === 4 ? (
                       <>
                         <div
                           style={{
@@ -201,7 +201,7 @@ const KanbanBoard = ({ ticketsRef, userRef, groupBy, orderBy }) => {
                           </span>
                         </div>
                       </>
-                    ) : key == 3 ? (
+                    ) : key === 3 ? (
                       <>
                         <div
                           style={{
@@ -240,7 +240,7 @@ const KanbanBoard = ({ ticketsRef, userRef, groupBy, orderBy }) => {
                           </span>
                         </div>
                       </>
-                    ) : key == 2 ? (
+                    ) : key === 2 ? (
                       <>
                         <div
                           style={{
@@ -279,7 +279,7 @@ const KanbanBoard = ({ ticketsRef, userRef, groupBy, orderBy }) => {
                           </span>
                         </div>
                       </>
-                    ) : key == 1 ? (
+                    ) : key === 1 ? (
                       <>
                         <div
                           style={{
@@ -318,7 +318,7 @@ const KanbanBoard = ({ ticketsRef, userRef, groupBy, orderBy }) => {
                           </span>
                         </div>
                       </>
-                    ) : key == 0 ? (
+                    ) : key === 0 ? (
                       <>
                         <div
                           style={{
